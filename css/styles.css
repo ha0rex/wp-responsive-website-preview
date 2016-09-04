@@ -1,0 +1,104 @@
+.vc_mdp_wrapper iframe {
+	background:#000;
+	position:absolute;
+	max-width:none;
+}
+
+.vc_mdp_wrapper.device_ipadair iframe {
+	width:768px;
+	height:957px;
+}
+
+.vc_mdp_wrapper.device_iphone6 iframe {
+    width: 375px;
+    height: 600px;  
+}
+
+.vc_mdp_wrapper .iframe_wrapper {
+	position:absolute;
+	overflow:hidden;
+}
+
+.vc_mdp_wrapper.device_ipadair .iframe_wrapper {
+	width:768px;
+	height:957px;
+	margin: 183px 0 0 60px;
+}
+
+.vc_mdp_wrapper.device_iphone6 .iframe_wrapper {
+    width: 375px;
+    height: 600px;  
+	margin: 178px 0 0 29px;
+}
+
+.vc_mdp_wrapper {
+    transform-origin: 0 0;
+}
+
+.vc_mdp_wrapper.device_iphone6 {
+    width: 436px;
+    height: 888px;
+    background: url(../images/devices/iphone6_line_white.png) no-repeat top left;
+    background-size: 100% auto;
+}
+
+.vc_mdp_wrapper.device_ipadair {
+    width: 887px;
+    height: 1254px;
+    background: url(../images/devices/ipadair_line_white.png) no-repeat top left;
+    background-size: 100% auto;
+}
+
+.vc_mdp_wrapper .toolbar_top {
+	background:#fff;
+	position:absolute;
+	z-index:3;
+	padding:24px 0 10px 0;
+	border-bottom:1px solid #e3e4e6;
+}
+
+.vc_mdp_wrapper.device_iphone6 .toolbar_top {
+	width:375px;
+	margin:112px 0 0 29px;
+}
+
+.vc_mdp_wrapper.device_ipadair .toolbar_top {
+	width:768px;
+	margin:116px 0 0 60px;
+}
+
+.vc_mdp_wrapper .toolbar_top .url {
+	background:#e3e4e6;
+	display:block;
+	color:#000;
+	font-size:16px;
+	text-align:center;
+	border-radius:6px;
+	width:calc(100% - 20px);
+	height:32px;
+	line-height:32px;
+	margin:0 10px;
+	font-weight:400;
+}
+
+.vc_mdp_wrapper.device_iphone6 .toolbar_top .url {
+
+}
+
+.vc_mdp_wrapper .toolbar_top .time {
+	position:absolute;
+	width:100%;
+	text-align:center;
+	margin-top:-24px;
+	font-weight:600;
+}
+
+.vc_mdp_wrapper .toolbar_top .battery::after {
+	display:block;
+	content:'\f240';
+	color:#000;
+	font: normal normal normal 16px/1 FontAwesome;
+	position:absolute;
+	right:6px;
+	top:3px;
+}

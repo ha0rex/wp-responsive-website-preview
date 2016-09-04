@@ -1,0 +1,8 @@
+.vc_el-container .vc_extend_rwp, .wpb_element_wrapper .vc_extend_rwp  {
+    background: url(../assets/icon-vc.png) no-repeat center center;
+    background-size:100% auto;
+}
+
+.wpb_vc_responsive_website_preview .scale, .wpb_vc_responsive_website_preview .disable-navigation {
+	display:none;
+}
